@@ -53,5 +53,5 @@ export default {
         </my-tabs>
 ```
 
-![造轮子_标签页](.\image\造轮子_标签页.png)
+![造轮子_标签页](./image/造轮子_标签页.png)
 
