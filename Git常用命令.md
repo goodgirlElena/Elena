@@ -19,10 +19,11 @@
 17. 拉取远程分支代码到本地：git pull origin 远程分支
 18. 暂存本地不需要提交的代码：git stash push 需要暂存的代码路径，可多个 -m '描述'  
 19. 将之前暂存的代码退回给工作区间：git stash pop 
-20. 撤销之前某一次提交(普通的提交，即只有单独一个commit)： git revert  commit_id
-21. 撤销之前某一次提交（存在merge commit）：git revert  commit_id -m 数字（数字从左往右依次为1，2，....）
-22. 合并、压缩、修改已上库的commit：git rebase -i HEAD~1 (数字可自定义)
-23. 拉取特定分支代码：git clone 远程仓库地址； git checkout -b 分支名 tag标签名
+20. 撤销本地最近一次的commit： git commit --amend
+21. 撤销之前某一次提交(普通的提交，即只有单独一个commit)： git revert  commit_id
+22. 撤销之前某一次提交（存在merge commit）：git revert  commit_id -m 数字（数字从左往右依次为1，2，....）
+23. 合并、压缩、修改已上库的commit：git rebase -i HEAD~1 (数字可自定义)
+24. 拉取特定分支代码：git clone 远程仓库地址； git checkout -b 分支名 tag标签名
 
 ## 克隆远程库中部分文件夹到本地仓库
 
