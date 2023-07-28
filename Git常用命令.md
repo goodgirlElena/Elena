@@ -38,7 +38,7 @@
 
 
 
-##git使用常见问题
+## git使用常见问题
 
 1. Git :fatal: refusing to merge unrelated histories解决
 
